@@ -57,7 +57,7 @@ nav li a {
 	color: black;
 	display: inline-block;
 	font-size: 36px;
-	padding: 12px 20px 12px 20px;
+	padding: 36px 20px 36px 20px;
 	text-decoration: none;
 }
 
@@ -94,16 +94,16 @@ nav li a:hover {
 }
 
 .post_header {
-	font-size: 24px;
+	font-size: 48px;
 	font-weight: bold;
 }
 
 .post_date {
-	font-size: 16px;
+	font-size: 20px;
 }
 
 .post {
-	font-size: 18px;
+	font-size: 24px;
 }
 
 .sidebar {
@@ -205,6 +205,19 @@ nav ul {
 
 nav li a {
 	font-size: 16px;
+	padding: 12px 20px 12px 20px;
+}
+
+.post_header {
+	font-size: 24px;
+}
+
+.post_date {
+	font-size: 16px;
+}
+
+.post {
+	font-size: 18px;
 }
 
 }
