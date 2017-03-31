@@ -147,7 +147,7 @@ footer {
 	padding: 20px;
 }
 
-@media screen and (min-device-width:320px) {
+@media screen and (max-width: 800px) {
 	#rightside {
 		display: none;
 	}
