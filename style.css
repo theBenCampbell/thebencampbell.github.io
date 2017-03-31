@@ -19,7 +19,7 @@ body {
 header {
 	background-color: #333;
 	margin: auto;
-	width: 52.2%;
+	width: 100%;
 }
 
 h1 {
@@ -45,7 +45,7 @@ nav ul {
 	margin: auto;
 	opacity: 0.9;
 	padding-left: 40px;
-	width: 52.2%;
+	width: 100%;
 }
 
 nav li {
@@ -73,26 +73,22 @@ nav li a:hover {
 }
 
 #leftside {
-	float: left;
 	margin-bottom: 100px;
-	width: 60%;
+	width: 100%;
 }
 
 #rightside {
-	float: right;
-	margin-bottom: 100px;
-	width: 40%;
+		display: none;
 }
 
 .content_box {
 	border: 1px solid #e6e6e6;
 	border-radius: 2px;
 	box-shadow: -2px 2px 2px 0px #BCBCBC;
-	float: right;
 	margin: auto;
 	margin-top: 20px;
 	padding: 15px;
-	width: 60%;
+	width: 99%;
 }
 
 .post_header {
@@ -145,4 +141,49 @@ footer {
 .copyright {
 	color: #666666;
 	padding: 20px;
+}
+
+@media (min-width:1025px) {
+	#leftside {
+	float: left;
+	margin-bottom: 100px;
+	width: 60%;
+}
+
+#rightside {
+	display: inline;
+	float: right;
+	margin-bottom: 100px;
+	width: 40%;
+}
+
+.content_box {
+	border: 1px solid #e6e6e6;
+	border-radius: 2px;
+	box-shadow: -2px 2px 2px 0px #BCBCBC;
+	float: right;
+	margin: auto;
+	margin-top: 20px;
+	padding: 15px;
+	width: 60%;
+}
+
+header {
+	background-color: #333;
+	margin: auto;
+	width: 52.2%;
+}
+
+nav ul {
+	background: linear-gradient(#e0e0e0,#cccccc,#b0b0b0);
+	border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #8c8c8c;
+	border-radius: 2px;
+	list-style: none;
+	margin: auto;
+	opacity: 0.9;
+	padding-left: 40px;
+	width: 52.2%;
+}
+
 }
