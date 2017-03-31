@@ -13,7 +13,7 @@ html {
 
 body {
 	background-color: #ffffff;
-	margin: 0 0 60px; /* bottom = footer height */
+	margin: 0 0 72px; /* bottom = footer height */
 }
 
 header {
@@ -99,11 +99,11 @@ nav li a:hover {
 }
 
 .post_date {
-	font-size: 20px;
+	font-size: 24px;
 }
 
 .post {
-	font-size: 24px;
+	font-size: 32px;
 }
 
 .sidebar {
@@ -134,8 +134,8 @@ footer {
 	background-color: #e6e6e6;
 	bottom: 0;
 	box-shadow: 0px -1px 1px 0px #BCBCBC;
-	font-size: 24px;
-	height: 60px;
+	font-size: 28px;
+	height: 72px;
 	left: 0;
 	position: absolute;
     width: 100%;
@@ -223,6 +223,7 @@ nav li a {
 
 footer {
 	font-size: 16px;
+	padding-top: 6px;
 }
 
 }
