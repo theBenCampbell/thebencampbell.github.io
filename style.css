@@ -134,6 +134,7 @@ footer {
 	background-color: #e6e6e6;
 	bottom: 0;
 	box-shadow: 0px -1px 1px 0px #BCBCBC;
+	font-size: 24px;
 	height: 60px;
 	left: 0;
 	position: absolute;
@@ -218,6 +219,10 @@ nav li a {
 
 .post {
 	font-size: 18px;
+}
+
+footer {
+	font-size: 16px;
 }
 
 }
