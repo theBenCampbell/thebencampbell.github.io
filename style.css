@@ -5,7 +5,7 @@ html {
 }
 
 * {
-	font-family: "Droid Sans", "Baskerville", sans-serif;
+	font-family: "Lato", "Verdana", "Helvetica", sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -16,7 +16,7 @@ html {
 
 body {
 	background-color: #ffffff;
-	margin: 0 0 72px; /* bottom = footer height */
+	margin: 0 0 91px; /* bottom = footer height */
 }
 
 header {
@@ -114,7 +114,7 @@ footer {
 	bottom: 0;
 	box-shadow: 0px -1px 1px 0px #BCBCBC;
 	font-size: 42px;
-	height: 72px;
+	height: 91px;
 	left: 0;
 	position: absolute;
     width: 100%;
@@ -238,7 +238,7 @@ footer {
 
 	footer {
 		font-size: 16px;
-		padding-top: 6px;
+		padding-top: 14px;
 	}
 
 }
