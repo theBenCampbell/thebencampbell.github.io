@@ -1,8 +1,8 @@
 html {
 	box-sizing: border-box;
+	min-height: 101%;
     position: relative;
-    min-height: 101%;
-}
+ }
 
 * {
 	font-family: "Lato", "Verdana", "Helvetica", sans-serif;
@@ -70,6 +70,7 @@ hr {
 	border-color: #2db92d;
 	margin-left: auto;
 	margin-right: auto;
+	opacity: 0.8;
 	width: 90%;
 }
 
@@ -77,13 +78,12 @@ hr {
 	text-decoration: none;
 }
 
-#leftside {
-	margin-bottom: 100px;
-	width: 100%;
-}
-
 #rightside {
 		display: none;
+}
+
+#leftside {
+	width: 100%;
 }
 
 .content_box {
@@ -100,11 +100,12 @@ hr {
 }
 
 .post_date {
-	color: #333;
+	color: #4d4d4d;
 	font-size: 36px;
 }
 
 .post {
+	color: #333;
 	font-size: 42px;
 }
 
@@ -132,6 +133,7 @@ footer {
 @media (min-width:1025px) {
 
 	body {
+		background-color: #aaa;
 		margin: 0 0 60px; /* bottom = footer height */
 	}
 
@@ -170,37 +172,25 @@ footer {
 		padding: 12px 20px 12px 20px;
 	}
 
-	hr {
-		display: none;
-	}
-
 	#wrapper {
+		display: flex;
 		margin: auto;
-		width: 100%;
+		width: 60%;
 	}
 
 	#leftside {
-		float: left;
-		margin-bottom: 100px;
-		width: 60%;
-	}
-	
-	#rightside {
+		background-color: white;
 		display: inline;
-		float: right;
-		margin-bottom: 100px;
-		width: 40%;
+		float: left;
+		width: 60%;
 	}
 
 	.content_box {
-		border: 1px solid #e6e6e6;
-		border-radius: 2px;
-		box-shadow: -2px 2px 2px 0px #BCBCBC;
-		float: right;
 		margin: auto;
 		margin-top: 20px;
 		padding: 15px;
-		width: 66.5%;
+		padding-bottom: 35px;
+		width: 90%;
 	}
 
 	.post_header {
@@ -215,14 +205,20 @@ footer {
 		font-size: 18px;
 	}
 
+	#rightside {
+		background-color: white;
+		display: inline;
+		float: right;
+		width: 40%;
+	}
+
 	.sidebar {
-		border: 1px solid #e6e6e6;
+		border: 1px solid #8c8c8c;
 		border-radius: 2px;
-		box-shadow: -2px 2px 2px 0px #BCBCBC;
 		margin-left: 25px;
 		margin-top: 20px;
 		padding: 15px;
-		width: 46.5%;
+		width: 90%;
 	}
 
 	.sidebar_header {
