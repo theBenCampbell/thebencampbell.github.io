@@ -44,10 +44,8 @@ nav ul {
 	background: linear-gradient(#e0e0e0,#cccccc,#b0b0b0);
 	border-top: 1px solid #f2f2f2;
     border-bottom: 1px solid #8c8c8c;
-	border-radius: 2px;
-	list-style: none;
+	list-style-type: none;
 	margin: auto;
-	opacity: 0.9;
 	padding-left: 40px;
 	width: 100%;
 }
@@ -70,7 +68,6 @@ nav li a:hover {
 
 hr {
 	border-color: #2db92d;
-	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
@@ -91,8 +88,9 @@ hr {
 
 .content_box {
 	margin: auto;
-	margin-top: 20px;
+	margin-top: 35px;
 	padding: 15px;
+	padding-bottom: 50px;
 	width: 90%;
 }
 
@@ -102,6 +100,7 @@ hr {
 }
 
 .post_date {
+	color: #333;
 	font-size: 36px;
 }
 
@@ -110,9 +109,9 @@ hr {
 }
 
 footer {
-	background-color: #e6e6e6;
+	background: linear-gradient(#e0e0e0,#cccccc,#b0b0b0);
 	bottom: 0;
-	box-shadow: 0px -1px 1px 0px #BCBCBC;
+	border-top: 1px solid #8c8c8c;
 	height: 150px;
 	left: 0;
 	position: absolute;
@@ -137,7 +136,7 @@ footer {
 	}
 
 	header {
-		width: 52.2%;
+		width: 60%;
 	}
 
 	h1 {
@@ -162,9 +161,8 @@ footer {
 		border-radius: 2px;
 		list-style: none;
 		margin: auto;
-		opacity: 0.9;
 		padding-left: 40px;
-		width: 52.2%;
+		width: 60%;
 	}
 
 	nav li a {
@@ -202,7 +200,7 @@ footer {
 		margin: auto;
 		margin-top: 20px;
 		padding: 15px;
-		width: 60%;
+		width: 66.5%;
 	}
 
 	.post_header {
@@ -224,7 +222,7 @@ footer {
 		margin-left: 25px;
 		margin-top: 20px;
 		padding: 15px;
-		width: 37%;
+		width: 46.5%;
 	}
 
 	.sidebar_header {
@@ -243,6 +241,8 @@ footer {
 
 	footer {
 		height: 60px;
+		width: 60%;
+		left: 20%;
 	}
 
 	.copyright {
