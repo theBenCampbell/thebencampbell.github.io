@@ -5,7 +5,7 @@ html {
 }
 
 * {
-	font-family: "Helvetica", sans-serif;
+	font-family: "Droid Sans", "Baskerville", sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -97,23 +97,23 @@ hr {
 }
 
 .post_header {
-	font-size: 56px;
+	font-size: 64px;
 	font-weight: bold;
 }
 
 .post_date {
-	font-size: 30px;
+	font-size: 36px;
 }
 
 .post {
-	font-size: 40px;
+	font-size: 48px;
 }
 
 footer {
 	background-color: #e6e6e6;
 	bottom: 0;
 	box-shadow: 0px -1px 1px 0px #BCBCBC;
-	font-size: 36px;
+	font-size: 42px;
 	height: 72px;
 	left: 0;
 	position: absolute;
