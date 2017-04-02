@@ -16,7 +16,7 @@ html {
 
 body {
 	background-color: #ffffff;
-	margin: 0 0 150px; /* bottom = footer height */
+	margin: 0 0 60px; /* bottom = footer height */
 }
 
 header {
@@ -111,7 +111,7 @@ footer {
 	background: linear-gradient(#e0e0e0,#cccccc,#b0b0b0);
 	bottom: 0;
 	border-top: 1px solid #8c8c8c;
-	height: 150px;
+	height: 60px;
 	left: 0;
 	position: absolute;
     width: 100%;
@@ -119,9 +119,9 @@ footer {
 
 .copyright {
 	color: #666666;
-	font-size: 36px;
-	padding-top: 48px;
-	padding-left: 36px;
+	font-size: 16px;
+	padding-top: 20px;
+	padding-left: 30px;
 }
 
 
@@ -227,16 +227,8 @@ footer {
 	}	
 
 	footer {
-		height: 60px;
 		width: 60%;
 		left: 20%;
-	}
-
-	.copyright {
-		color: #666666;
-		font-size: 16px;
-		padding-top: 20px;
-		padding-left: 36px;
 	}
 
 }
