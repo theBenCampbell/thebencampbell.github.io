@@ -27,7 +27,7 @@ header {
 
 h1 {
 	color: white;
-	font-size: 80px;
+	font-size: 40px;
 	padding-top: 40px;
 	padding-left: 60px;
 }
@@ -35,7 +35,7 @@ h1 {
 h2 {
 	color: #aaa;
 	margin-top: 5px;
-	font-size: 40px;
+	font-size: 24px;
 	padding-bottom: 50px;
 	padding-left: 60px;
 }
@@ -57,8 +57,8 @@ nav li {
 nav li a {
 	color: black;
 	display: inline-block;
-	font-size: 36px;
-	padding: 36px 20px 36px 20px;
+	font-size: 16px;
+	padding: 12px 20px 12px 20px;
 	text-decoration: none;
 }
 
@@ -95,18 +95,18 @@ hr {
 }
 
 .post_header {
-	font-size: 58px;
+	font-size: 24px;
 	font-weight: bold;
 }
 
 .post_date {
-	color: #4d4d4d;
-	font-size: 36px;
+	color: #333;
+	font-size: 16px;
 }
 
 .post {
-	color: #333;
-	font-size: 42px;
+	color: #4d4d4d;
+	font-size: 18px;
 }
 
 footer {
@@ -127,7 +127,7 @@ footer {
 }
 
 
-
+/* Desktop styling */
 
 
 @media (min-width:1025px) {
@@ -141,35 +141,12 @@ footer {
 		width: 60%;
 	}
 
-	h1 {
-		color: white;
-		font-size: 40px;
-		padding-top: 40px;
-		padding-left: 60px;
-	}
-
 	h2 {
-		color: #aaa;
-		margin-top: 5px;
 		font-size: 24px;
-		padding-bottom: 50px;
-		padding-left: 60px;
 	}
 
 	nav ul {
-		background: linear-gradient(#e0e0e0,#cccccc,#b0b0b0);
-		border-top: 1px solid #f2f2f2;
-	    border-bottom: 1px solid #8c8c8c;
-		border-radius: 2px;
-		list-style: none;
-		margin: auto;
-		padding-left: 40px;
 		width: 60%;
-	}
-
-	nav li a {
-		font-size: 16px;
-		padding: 12px 20px 12px 20px;
 	}
 
 	#wrapper {
@@ -186,15 +163,14 @@ footer {
 	}
 
 	.content_box {
-		margin: auto;
 		margin-top: 20px;
-		padding: 15px;
 		padding-bottom: 35px;
 		width: 90%;
 	}
 
 	.post_header {
 		font-size: 24px;
+		font-weight: bold;
 	}
 
 	.post_date {
