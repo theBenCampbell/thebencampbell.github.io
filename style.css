@@ -167,6 +167,7 @@ footer {
 	#wrapper {
 		display: flex;
 		margin: auto;
+		min-height: 100vh;
 		width: 60%;
 	}
 
