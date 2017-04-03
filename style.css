@@ -92,7 +92,7 @@ hr {
 }
 
 #rightside {
-		display: none;
+	display: none;
 }
 
 #leftside {
@@ -194,7 +194,6 @@ footer li a:hover {
 	}
 
 	#leftside {
-		background-color: white;
 		display: inline;
 		float: left;
 		width: 70%;
@@ -206,7 +205,6 @@ footer li a:hover {
 	}
 
 	#rightside {
-		background-color: white;
 		display: inline;
 		float: right;
 		width: 30%;
