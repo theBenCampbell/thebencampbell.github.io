@@ -1,8 +1,12 @@
 html {
 	box-sizing: border-box;
-	min-height: 101%;
+	
     position: relative;
  }
+
+body {
+	background-color: #b7b7bb;
+}
 
 * {
 	font-family: "Lato", "Verdana", "Helvetica", sans-serif;
@@ -63,8 +67,15 @@ hr {
 	border-color: #2db92d;
 	margin-left: auto;
 	margin-right: auto;
-	opacity: 0.8;
 	width: 90%;
+}
+
+#bottom {
+	float: right;
+}
+
+#main {
+	background-color: white;
 }
 
 #main a {
@@ -90,7 +101,6 @@ hr {
 
 .content_box {
 	margin: auto;
-	margin-top: 35px;
 	padding: 15px;
 	padding-bottom: 50px;
 	width: 90%;
@@ -111,19 +121,33 @@ hr {
 	font-size: 16px;
 }
 
-footer {
+footer ul {
 	background: linear-gradient(#e0e0e0,#cccccc,#b0b0b0);
 	border-top: 1px solid #8c8c8c;
-	height: 60px;
-    width: 100%;
+	list-style-type: none;
+	padding-left: 10px;
 }
 
-.copyright {
-	color: #333;
-	font-size: 16px;
-	padding-top: 20px;
-	padding-left: 30px;
+footer li {
+	display: inline;
 }
+
+footer li a, footer li p {
+	color: #333;
+	display: inline-block;
+	font-size: 16px;
+	padding: 12px 20px 12px 20px;
+	text-decoration: none;
+}
+
+footer li a:hover {
+	color: black;
+}
+
+#top {
+	float: right;
+}
+
 
 /* Desktop styling */
 
@@ -213,6 +237,10 @@ footer {
 	footer {
 		margin: auto;
 		width: 60%;
+	}
+
+	#top {
+		font-size: 20px;
 	}
 
 }

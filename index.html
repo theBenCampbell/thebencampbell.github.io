@@ -25,7 +25,7 @@
 		<ul>
 			<li><a href="index.html">Home/Blog</a></li>
 			<li><a href="contact.html">Contact</a></li>
-			<li><a id="bottom" href="#bottom">Bottom v</a></li>
+			<li><a id="bottom" href="#bottom">&DownArrowBar;</a></li>
 		</ul>
 	</nav>
 
@@ -41,7 +41,8 @@
 				<p class="post">Today I wanted to add a contact form to my site so that people can get in touch with me. After learning that this is mostly done using PHP (which GitHub Pages doesn't support), I started looking at other options.<br><br>
 				First I looked at the forms that Google Docs can produce, but after testing them I felt that the design was too intrusive as they use a lot of styling that cannot be changed. After a bit of searching I came across <a href="https://www.wufoo.com/" target="_blank">Wufoo</a>.<br><br>
 				Wufoo are an online form building service which offer both free and paid solutions, with different pricing plans based on your needs. I have created a free account, which limits the number of forms I can create and how many entries they can accept per month. As there is little (<i>no</i>) traffic coming to my site right now that suits me just fine.<br><br>
-				I may change the contact form to a custom made one once I start learning some PHP, but this Wufoo one will suffice for now.</p>
+				I may change the contact form to a custom made one once I start learning some PHP, but this Wufoo one will suffice for now.<br><br>
+				I've also added a scroll to top arrow at the bottom of the page using jQuery. On the mobile site I've also included a scroll to bottom arrow on the navbar as there is currently no way of navigating to specific blog posts, making it easier to read the blog in chronological order.</p>
 
 			</div>
 
@@ -138,7 +139,12 @@
 
 	<footer>
 
-		<p class="copyright">&copy; Ben Campbell 2017</p>
+		<ul>
+			<li><p class="copyright">&copy; Ben Campbell 2017</p></li>
+			<li><a id="top" href="#top">&UpArrowBar;</a></li>
+		</ul>
+
+		
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script type="text/javascript" src="script.js"></script>
