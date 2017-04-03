@@ -1,8 +1,3 @@
-$(document).ready(function() {
-	$("body").hide();
-	$("body").fadeIn(1600);
-});
-
 $("a[href='#bottom']").click(function() {
   $("html, body").animate({ scrollTop: $(document).height() }, "slow");
   return false;
