@@ -19,7 +19,7 @@ body {
 }
 
 header {
-	background-color: #333;
+	background-color: #202020;
 	width: 100%;
 }
 
@@ -52,7 +52,7 @@ nav li {
 }
 
 nav li a {
-	color: #666;
+	color: #333;
 	display: inline-block;
 	font-size: 16px;
 	padding: 12px 20px 12px 20px;
@@ -106,12 +106,12 @@ hr {
 }
 
 .post_date {
-	color: #333;
+	color: #141414;
 	font-size: 16px;
 }
 
 .post {
-	color: #4d4d4d;
+	color: #202020;
 	font-size: 16px;
 }
 
@@ -125,13 +125,27 @@ footer {
     width: 100%;
 }
 
+footer a {
+	color: #333;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: black;
+}
+
 .copyright {
-	color: #666;
+	color: #333;
 	font-size: 16px;
 	padding-top: 20px;
 	padding-left: 30px;
 }
 
+#top {
+	position: relative;
+	bottom: 20px;
+	left: 295px;
+}
 
 /* Desktop styling */
 
@@ -172,6 +186,10 @@ footer {
 		padding: 12px 20px 12px 20px;
 	}
 
+	#bottom {
+		display: none;
+	}
+
 	#main {
 		display: flex;
 		margin: auto;
@@ -183,12 +201,11 @@ footer {
 		background-color: white;
 		display: inline;
 		float: left;
-		width: 60%;
+		width: 70%;
 	}
 
 	.content_box {
 		margin-top: 20px;
-		padding-bottom: 35px;
 		width: 90%;
 	}
 
@@ -209,14 +226,13 @@ footer {
 		background-color: white;
 		display: inline;
 		float: right;
-		width: 40%;
+		width: 30%;
 	}
 
 	.sidebar {
 		border: 1px solid #8c8c8c;
-		border-radius: 2px;
-		margin-left: 25px;
-		margin-top: 20px;
+		margin: auto;
+		margin-top: 35px;
 		padding: 15px;
 		width: 90%;
 	}
@@ -238,6 +254,10 @@ footer {
 	footer {
 		width: 60%;
 		left: 20%;
+	}
+
+	#top {
+		display: none;
 	}
 
 }
