@@ -71,16 +71,16 @@ hr {
 	width: 90%;
 }
 
-#wrapper a {
+#main a {
 	color: #0066cc;
 	text-decoration: none;
 }
 
-#wrapper a:hover {
+#main a:hover {
 	text-decoration: underline;
 }
 
-#wrapper a:visited {
+#main a:visited {
 	color: #551A8B;
 }
 
@@ -172,7 +172,7 @@ footer {
 		padding: 12px 20px 12px 20px;
 	}
 
-	#wrapper {
+	#main {
 		display: flex;
 		margin: auto;
 		min-height: 100vh;
