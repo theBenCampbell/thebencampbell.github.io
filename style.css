@@ -52,7 +52,7 @@ nav li {
 }
 
 nav li a {
-	color: black;
+	color: #666;
 	display: inline-block;
 	font-size: 16px;
 	padding: 12px 20px 12px 20px;
@@ -60,7 +60,7 @@ nav li a {
 }
 
 nav li a:hover {
-	color: #999999;
+	color: black;
 }
 
 hr {
@@ -126,7 +126,7 @@ footer {
 }
 
 .copyright {
-	color: #666666;
+	color: #666;
 	font-size: 16px;
 	padding-top: 20px;
 	padding-left: 30px;
