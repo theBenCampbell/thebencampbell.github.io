@@ -6,8 +6,9 @@
 
 	<title>Ben Campbell</title>
 
-	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="style.css" rel="stylesheet" type="text/css">
 	
 </head>
 
@@ -35,6 +36,19 @@
 
 			<div class="content_box">
 
+				<p class="post_header"><span id="image_gallery">Image Gallery</span></p>
+				<p class="post_date">12th April 2017<br><br></p>
+
+				<p class="post">I've been on holiday for a week and so haven't made any progress with the site. Today I decided to make an image gallery page to practice making a different layout using CSS.<br><br>
+				<a href="gallery.html" target="_blank">Here</a> is the page. Currently it only has three images that sit vertically when viewed on a phone, and horizontally when viewed on a tablet/desktop. Later I will add more images and maybe add another media query to make the layout different on a tablet.<br><br>
+				I've also added a "Links" section to the sidebar, so that any important links aren't lost within the blog posts.</p>
+
+			</div>
+
+			<hr>
+
+			<div class="content_box">
+
 				<p class="post_header"><span id="contact_form">Contact Form</span></p>
 				<p class="post_date">3rd April 2017<br><br></p>
 
@@ -53,7 +67,7 @@
 				<p class="post_header"><span id="going_mobile">Going Mobile</span></p>
 				<p class="post_date">1st April 2017<br><br></p>
 
-				<p class="post">After deploying my site on GitHub and seeing how awful it was when being viewed on my phone I decided to focus on making it more mobile friendly. After all, I do most of my internet browsing on my phone now, and so do most of the people I know.<br><br>
+				<p class="post">After deploying my site on GitHub Pages and seeing how awful it was when being viewed on my phone I decided to focus on making it more mobile friendly. After all, I do most of my internet browsing on my phone now, and so do most of the people I know.<br><br>
 				Whilst doing some research I found out that a lot of developers now create websites for mobile first, then use various styling techniques to make the site adapt to bigger displays - the opposite of what I had done.<br><br>
 				I've spent the last day reworking my CSS file and making some layout changes to correct this. Now all of the default styling is for the mobile version of the site and I've used a media query to make it scale to a desktop version.<br><br>
 				I am much happier with the layout of the site now, and by using the media query it makes it much easier to adjust the mobile site without affecting the desktop site and vice versa. For now I've only put in one media query, I may add a few more to better accommodate different display sizes.</p>
@@ -82,8 +96,8 @@
 				<p class="post_date">29th March 2017<br><br></p>
 
 				<p class="post">Today I wanted to adjust the layout of the site to make navigation easier once there is more content. I figured it would be easier to do this now while there isn't too much content to deal with.<br><br>
-				I've changed from the original layout which you can see <a href="sitev1.jpg" target="_blank">here</a>, to the layout that you are viewing now with a banner and navigation links to jump to specific blog posts.<br><br>
-				Whilst making these changes I came across a few problems trying to get the main content boxes and the navigation box positioned how I wanted them, problems like <a href="sitev2.jpg" target="_blank"><i>this</i></a>, and <a href="sitev3.jpg" target="_blank"><i>this</i></a>. After some trial and error and a bit of googling I came to the conclusion that I needed to restructure the HTML of the site, putting most of the body in a wrapper and adding a few more divs.<br><br>
+				I've changed from the original layout which you can see <a href="images\sitev1.jpg" target="_blank">here</a>, to the layout that you are viewing now with a banner and navigation links to jump to specific blog posts.<br><br>
+				Whilst making these changes I came across a few problems trying to get the main content boxes and the navigation box positioned how I wanted them, problems like <a href="images\sitev2.jpg" target="_blank"><i>this</i></a>, and <a href="images\sitev3.jpg" target="_blank"><i>this</i></a>. After some trial and error and a bit of googling I came to the conclusion that I needed to restructure the HTML of the site, putting most of the body in a main div and adding a few extra divs.<br><br>
 				It took some time but I'm happy with the result.</p>
 
 			</div>
@@ -129,6 +143,17 @@
 					<li><a href="#deployment">31st March - Deployment!</a></li>
 					<li><a href="#going_mobile">1st April - Going Mobile</a></li>
 					<li><a href="#contact_form">3rd April - Contact Form</a></li>
+					<li><a href="#image_gallery">12th April - Image Gallery</a></li>
+				</ul>
+
+			</div>
+
+			<div class="sidebar">
+
+				<p class="sidebar_header">Links</p>
+
+				<ul>
+					<li><a href="gallery.html" target="_blank">Image Gallery</a></li>
 				</ul>
 
 			</div>
@@ -145,7 +170,6 @@
 		</ul>
 
 		
-
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script type="text/javascript" src="script.js"></script>
 

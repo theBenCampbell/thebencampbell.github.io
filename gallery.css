@@ -1,0 +1,117 @@
+html {
+	box-sizing: border-box;
+	min-height: 101%;
+    position: relative;
+ }
+
+body {
+	background-color: #b0b0b0;
+} 
+
+* {
+	font-family: "Lato", "Verdana", "Helvetica", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+header {
+	background-color: #202020;
+	width: 100%;
+}
+
+h1 {
+	color: white;
+	font-size: 32px;
+	padding: 30px;
+	text-align: center;
+}
+
+#subheader {
+	background-color: white;
+}
+
+h2 {
+	color: #141414;
+	font-size: 16px;
+	padding: 30px;
+	text-align: center;
+}
+
+#main {
+	background-color: white;
+}
+
+.gallery {
+	padding: 0px 25px 25px 25px;
+	width: 100%;
+}
+
+.picture {
+	width: 100%;
+}
+
+.picture img {
+	border: 1px solid #141414;
+	width: 100%;
+	height: auto;
+}
+
+footer ul {
+	background: linear-gradient(#e0e0e0,#cccccc,#b0b0b0);
+	border-top: 1px solid #8c8c8c;
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+footer li {
+	display: inline;
+}
+
+footer li a, footer li p {
+	color: #333;
+	display: inline-block;
+	font-size: 16px;
+	padding: 12px 20px 12px 20px;
+	text-decoration: none;
+}
+
+footer li a:hover {
+	color: black;
+}
+
+#top {
+	float: right;
+}
+
+
+/* Tablet/Desktop styling */
+
+
+@media (min-width: 768px) {
+
+h1 {
+	font-size: 40px;
+	padding: 40px;
+}
+
+h2 {
+	font-size: 20px;
+	padding:40px;
+}
+
+#main {
+		display: flex;
+		margin: auto;
+		min-height: 100vh;
+}
+
+.gallery {
+	float: left;
+	width: 33.3%;
+}
+
+}
