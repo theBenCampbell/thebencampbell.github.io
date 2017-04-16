@@ -72,6 +72,7 @@ hr {
 
 #bottom {
 	float: right;
+	padding-bottom: 0px;
 }
 
 #main {
@@ -148,14 +149,87 @@ footer li a:hover {
 
 #top {
 	float: right;
+	padding-bottom: 0px;
 }
 
 
-/* Tablet/Desktop styling */
+/* Tablet styling */
 
 
 @media (min-width: 768px) {
+	header {
+		margin: auto;
+	}
 
+	h1 {
+		font-size: 40px;
+		padding-top: 40px;
+		padding-left: 40px;
+	}
+
+	h2 {
+		font-size: 24px;
+		padding-top: 10px;
+		padding-bottom: 60px;
+		padding-left: 40px;
+	}
+
+	nav ul {
+		margin: auto;
+		padding-left: 20px;
+	}
+
+	#main {
+		display: flex;
+		margin: auto;
+		min-height: 100vh;
+		width: 100%;
+	}
+
+	#leftside {
+		display: inline;
+		float: left;
+		width: 70%;
+	}
+
+	.content_box {
+		width: 90%;
+	}
+
+	#rightside {
+		display: inline;
+		float: right;
+		width: 30%;
+	}
+
+	.sidebar {
+		border: 1px solid #8c8c8c;
+		margin: auto;
+		margin-top: 35px;
+		padding: 15px;
+		width: 90%;
+	}
+
+	.sidebar_header {
+		font-size: 24px;
+		font-weight: bold;
+	}
+
+	.sidebar ul {
+		list-style-type: none;
+		margin-top: 10px;
+	}
+
+	.sidebar ul li {
+		padding: 3px;
+	}
+}
+
+
+/* Desktop styling */
+
+
+@media (min-width: 1025px) {
 	body {
 		background-color: #b7b7bb;
 	}
@@ -241,5 +315,4 @@ footer li a:hover {
 	#top {
 		font-size: 20px;
 	}
-
 }

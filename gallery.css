@@ -92,26 +92,24 @@ footer li a:hover {
 
 
 @media (min-width: 768px) {
+	h1 {
+		font-size: 40px;
+		padding: 40px;
+	}
 
-h1 {
-	font-size: 40px;
-	padding: 40px;
-}
+	h2 {
+		font-size: 20px;
+		padding:40px;
+	}
 
-h2 {
-	font-size: 20px;
-	padding:40px;
-}
-
-#main {
+	#main {
 		display: flex;
 		margin: auto;
 		min-height: 100vh;
-}
+	}
 
-.gallery {
-	float: left;
-	width: 33.3%;
-}
-
+	.gallery {
+		float: left;
+		width: 33.3%;
+	}
 }
