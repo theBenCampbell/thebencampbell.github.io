@@ -67,7 +67,7 @@ hr {
 	border-color: #2db92d;
 	margin-left: auto;
 	margin-right: auto;
-	width: 90%;
+	width: 94%;
 }
 
 #bottom {
@@ -106,7 +106,7 @@ hr {
 	padding: 10px;
 	padding-top: 35px;
 	padding-bottom: 40px;
-	width: 90%;
+	width: 96%;
 }
 
 .post_header {
@@ -192,10 +192,6 @@ footer li a:hover {
 		width: 70%;
 	}
 
-	.content_box {
-		width: 90%;
-	}
-
 	#rightside {
 		display: inline;
 		float: right;
@@ -207,7 +203,7 @@ footer li a:hover {
 		margin: auto;
 		margin-top: 35px;
 		padding: 15px;
-		width: 90%;
+		width: 86%;
 	}
 
 	.sidebar_header {
@@ -253,12 +249,24 @@ footer li a:hover {
 		width: 60%;
 	}
 
+	hr {
+		width: 90%;
+	}
+
 	#bottom {
 		display: none;
 	}
 
 	#main {
 		width: 60%;
+	}
+
+	.content_box {
+		width: 90%;
+	}
+
+	.sidebar {
+		width: 90%;
 	}
 
 	footer {
