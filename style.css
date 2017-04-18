@@ -164,7 +164,7 @@ footer li a:hover {
 	}
 
 	h1 {
-		font-size: 40px;
+		font-size: 48px;
 		padding-top: 30px;
 		padding-left: 38px;
 	}
@@ -192,6 +192,18 @@ footer li a:hover {
 		display: inline;
 		float: left;
 		width: 70%;
+	}
+
+	.post_header {
+		font-size: 26px;
+	}
+
+	.post_date {
+		font-size: 18px;
+	}
+
+	.post {
+		font-size: 18px;
 	}
 
 	#rightside {

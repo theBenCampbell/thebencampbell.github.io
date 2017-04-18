@@ -112,4 +112,8 @@ footer li a:hover {
 		float: left;
 		width: 33.3%;
 	}
+
+	#top {
+		font-size: 20px;
+	}
 }

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
 html {
 	box-sizing: border-box;
 	min-height: 101%;
@@ -9,7 +11,7 @@ body {
 }
 
 * {
-	font-family: "Lato", "Verdana", "Helvetica", sans-serif;
+	font-family: "Lato", "Helvetica", sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -23,28 +25,120 @@ body {
 }
 
 header {
+	background-color: #333333;
 	height: 75px;
 }
 
+h1 {
+	color: white;
+	padding: 15px;
+	text-align: center;
+}
+
 #red {
-	background-color: red;
-	height: 250px;
+	background-color: #ff3333;
+	height: 350px;
 	width: 100%;
 }
 
+.red_p {
+	color: white;
+	font-size: 20px;
+	position: relative;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%); 
+}
+
 #blue {
-	background-color: blue;
-	height: 250px;
+	background-color: #3366ff;
+	height: 350px;
 	width: 100%;
+}
+
+.blue_p {
+	color: #ccc;
+	font-size: 20px;
+	position: relative;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%); 
 }
 
 #white {
 	background-color: white;
-	height: 250px;
+	height: 350px;
 	width: 100%;
+}
+
+.white_p {
+	color: #333;
+	font-size: 20px;
+	position: relative;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%); 
 }
 
 footer {
 	background-color: white;
 	height: 100px;
+	text-align: center;
+}
+
+footer a {
+	color: #555;
+}
+
+footer a:visited {
+	color: #555;
+}
+
+.copyright {
+	font-size: 20px;
+}
+
+/* Tablet Styling */
+
+@media (min-width: 768px) {
+	header {
+		height: 100px;
+	}
+
+	h1 {
+		font-size: 40px;
+		padding: 20px;
+	}
+
+	#red {
+		height: 500px;
+	}
+
+	.red_p {
+		font-size: 24px;
+	}
+
+	#blue {
+		height: 500px;
+	}
+
+	.blue_p {
+		font-size: 24px;
+	}
+
+	#white {
+		height: 500px;
+	}
+
+	.white_p {
+		font-size: 24px;
+	}
+
+	footer {
+		height: 125px;
+	}
+
+	.copyright {
+		font-size: 24px;
+	}
 }
