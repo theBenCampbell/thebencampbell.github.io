@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
 html {
 	box-sizing: border-box;
 	min-height: 101%;
@@ -9,7 +11,7 @@ body {
 }
 
 * {
-	font-family: "Lato", "Verdana", "Helvetica", sans-serif;
+	font-family: "Lato", "Helvetica", sans-serif;
 	margin: 0;
 	padding: 0;
 }
