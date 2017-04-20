@@ -43,6 +43,14 @@ h2 {
 	text-align: center;
 }
 
+#subheader h2:nth-child(1) {
+	padding-bottom: 16px;
+}
+
+#subheader h2:nth-child(2) {
+	padding-top: 0;
+}
+
 #main {
 	background-color: white;
 }
@@ -102,6 +110,10 @@ footer li a:hover {
 	h2 {
 		font-size: 20px;
 		padding:40px;
+	}
+
+		#subheader h2:nth-child(1) {
+		padding-bottom: 20px;
 	}
 
 	#main {
