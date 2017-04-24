@@ -4,6 +4,7 @@ html {
 	box-sizing: border-box;
 	min-height: 101%;
     position: relative;
+    -webkit-text-size-adjust: 100%; /* Stops text resize when mobile/tablet is landscape */
  }
 
 body {
