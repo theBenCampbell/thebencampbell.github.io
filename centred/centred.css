@@ -27,6 +27,7 @@ p {
 
 header {
 	background-color: #333;
+	border-bottom: 1px solid black;
 	height: 75px;
 }
 
@@ -36,14 +37,14 @@ h1 {
 	text-align: center;
 }
 
-#red {
-	background-color: #ff3333;
+#grey {
+	background-color: #e2e2e2;
+	border-bottom: 1px solid black;
 	height: 225px;
 	width: 100%;
 }
 
-#red p {
-	color: white;
+#grey p {
 	font-size: 20px;
 	padding: 20px;
 	position: relative;
@@ -53,7 +54,8 @@ h1 {
 }
 
 #blue {
-	background-color: #3366ff;
+	background-color: #4474b9;
+	border-bottom: 1px solid black;
 	height: 1300px;
 	width: 100%;
 }
@@ -80,7 +82,6 @@ h1 {
 }
 
 #white {
-	background-color: white;
 	height: 750px;
 	width: 100%;
 }
@@ -159,11 +160,11 @@ footer a:visited {
 		padding: 20px;
 	}
 
-	#red {
+	#grey {
 		height: 250px;
 	}
 
-	#red p {
+	#grey p {
 		font-size: 24px;
 		padding: 30px;
 	}
@@ -243,7 +244,7 @@ footer a:visited {
 		padding: 25px;
 	}
 
-	#red {
+	#grey {
 		height: 275px;
 	}
 
