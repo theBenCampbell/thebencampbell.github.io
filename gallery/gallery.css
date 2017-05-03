@@ -113,7 +113,7 @@ footer li a:hover {
 		padding:40px;
 	}
 
-		#subheader h2:nth-child(1) {
+	#subheader h2:nth-child(1) {
 		padding-bottom: 20px;
 	}
 
@@ -126,6 +126,10 @@ footer li a:hover {
 	.gallery {
 		float: left;
 		width: 33.3%;
+	}
+
+	footer li a, footer li p {
+		font-size: 18px;
 	}
 
 	#top {
