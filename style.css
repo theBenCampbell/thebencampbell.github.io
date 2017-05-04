@@ -281,6 +281,10 @@ footer li a:hover {
 		padding: 12px 24px;
 	}
 
+	.copyright {
+		font-size: 18px;
+	}
+
 	#top {
 		font-size: 20px;
 	}
